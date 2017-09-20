@@ -15,4 +15,4 @@ build:
     options: '--privileged=tru4e --net=bridge'
 
   ci:
-    - sdkmanager --list --verbose 
+    - $ANDROID_HOME/tools/bin/sdkmanager --list 
