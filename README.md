@@ -1,14 +1,8 @@
-u14javall
-===============
+Includes Dockerfile for building Shippable CI image for Android builds using the 
+standard Shippable Java image.
 
-Shippable CI image for Java on Ubuntu 14.04. Available jdk versions:
+Shippable.yml file includes sample config for using this Android CI image for a
+build.
 
-1. openjdk6
-2. openjdk7
-3. openjdk8
-4. oraclejdk7
-5. oraclejdk8
-
-**Services:**
-
-use this link github.com/dry-dock/u14all to refer to the versions of the services
+NOTE: this image is large and should primarily be run on a persistent node. The 
+initial download from Docker Hub will take a while.
