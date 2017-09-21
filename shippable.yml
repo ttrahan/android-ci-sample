@@ -12,7 +12,7 @@ build:
     image_name: ttrahan/u14javall-android
     image_tag: sdk-25.2.5
     pull: true
-    options: '--privileged=tru4e --net=bridge'
+    options: '--privileged=true --net=bridge'
 
   ci:
     - $ANDROID_HOME/tools/bin/sdkmanager --list 
