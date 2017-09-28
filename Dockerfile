@@ -1,4 +1,4 @@
-FROM drydock/u14javall:latest
+FROM drydock/u14javall:v5.8.2
 
 ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle \
   ANDROID_HOME=/opt/android-sdk \
